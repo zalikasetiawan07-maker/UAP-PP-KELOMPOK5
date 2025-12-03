@@ -33,3 +33,4 @@ void tampilkanLabirin2() {
     // Ukuran layar yang ditetapkan
     int layarTinggi2 = 25;
     int layarLebar2  = 80;
+
