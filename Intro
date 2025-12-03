@@ -1,0 +1,9 @@
+#include <ncurses.h>
+
+void tampilkanLabirin() {
+    // Ukuran layar yang ditetapkan
+    int layarTinggi = 25;
+    int layarLebar  = 80;
+
+    // Labirin (berdasarkan gambar)
+    
