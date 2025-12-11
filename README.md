@@ -51,7 +51,7 @@ F. Pause Menu
 Selama bermain, pemain bisa membuka menu jeda (dengan menekan ENTER):
 1. Lanjutkan
 2. Keluar
-Pause menu memudahkan pemain berhenti sejenak tanpa kehilangan progres.
+3. Pause menu memudahkan pemain berhenti sejenak tanpa kehilangan progres.
 
 G. End Screen
 Setelah permainan selesai, pemain akan melihat:
