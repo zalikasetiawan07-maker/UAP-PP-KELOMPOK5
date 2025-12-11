@@ -3,9 +3,9 @@
 Project ini disusun untuk memenuhi ujian akhir Praktikum (UAP) mata kuliah pengenalan pemrograman, dimana tugasnya adalah membuat game sederhana dengan menggunakan bahasa pemrograman c++ berbasis terminal interaktif.
 
 berikut adalah anggota kelompok yang menyusun project ini:
-Tessa Aufi Muzakiah (2517051029)
-Zalika Dinar Alhena Setiawan (2517051007)
-Chalilaika Novikri (2517051027)
+1. Tessa Aufi Muzakiah (2517051029)
+2. Zalika Dinar Alhena Setiawan (2517051007)
+3. Chalilaika Novikri (2517051027)
 
 -BYTEMUNCH-
 
@@ -27,25 +27,25 @@ Setiap level memiliki labirin, warna, dan tingkat kesulitan yang berbeda.
 B. Labirin & Level
 Setiap tingkat kesulitan menggunakan warna terminal yang berbeda agar pemain mudah mengenali suasana level:
 Level	Warna Terminal	Deskripsi :
-Easy	Biru	Labirin kecil dan paling sederhana
-Medium	Cyan	Labirin lebih luas dan bercabang
-Hard	Hijau	Labirin paling sulit dengan jalur kompleks
+1. Easy	Biru	Labirin kecil dan paling sederhana
+2. Medium	Cyan	Labirin lebih luas dan bercabang
+3. Hard	Hijau	Labirin paling sulit dengan jalur kompleks
 
 C. Sistem Makanan (Collectibles)
 Di dalam labirin tersebar makanan yang bisa diambil pemain:
-Setiap makanan menambah skor
-Mendorong pemain untuk menjelajah
-Menjadi ciri khas game BYTEMUNCH (“Byte” + “Munch”)
+1. Setiap makanan menambah skor
+2. Mendorong pemain untuk menjelajah
+3. Menjadi ciri khas game BYTEMUNCH (“Byte” + “Munch”)
 
 D. Timer
 Game memiliki timer:
-Jika waktu habis → pemain defeat
-Jika pemain keluar sebelum waktu habis → lanjut ke penilaian akhir
-Timer membuat permainan terasa lebih menantang dan memacu pemain untuk bergerak cepat.
+1. Jika waktu habis → pemain defeat
+2. Jika pemain keluar sebelum waktu habis → lanjut ke penilaian akhir
+3. Timer membuat permainan terasa lebih menantang dan memacu pemain untuk bergerak cepat.
 
 E. Sistem Skor
 Skor dihitung berdasarkan:
-Jumlah makanan yang berhasil dimakan
+1. Jumlah makanan yang berhasil dimakan
 
 F. Pause Menu
 Selama bermain, pemain bisa membuka menu jeda (dengan menekan ENTER):
@@ -55,5 +55,5 @@ Pause menu memudahkan pemain berhenti sejenak tanpa kehilangan progres.
 
 G. End Screen
 Setelah permainan selesai, pemain akan melihat:
-Victory → jika berhasil keluar dari labirin
-Defeat → jika waktu habis atau memilih keluar
+1. Victory → jika berhasil keluar dari labirin
+2. Defeat → jika waktu habis atau memilih keluar
