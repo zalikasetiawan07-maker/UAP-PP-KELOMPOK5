@@ -1,6 +1,6 @@
 #include <ncursesw/curses.h>
 
-// deklarasi fungsi level
+
 void jalankanGameLabirin1();     // easy
 void jalankanGameLabirin_L1();   // medium
 void jalankanGameHard();         // hard
@@ -47,5 +47,26 @@ mvprintw(5, 10, "===== GAME LABIRIN =====");
     }
 }
 
+int main() {
+    
+    initscr();
+    noecho();
+    cbreak();
+    curs_set(0);
 
+    while (true) {
+        int pilih = menuUtama();
+
+        clear();
+        refresh();
+
+        if (pilih == 0) jalankanGameLabirin1();
+        else if (pilih == 1) jalankanGameLabirin_L1();
+        else if (pilih == 2) jalankanGameHard();
+        else break;
+    }
+
+    endwin();
+    return 0;
+}
 
