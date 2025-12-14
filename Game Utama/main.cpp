@@ -6,6 +6,7 @@
 #include "easy.cpp"
 #include "medium.cpp"
 #include "hard.cpp"
+#include "music.h"
 
 // Deklarasi fungsi game
 void jalankanGameLabirin1();
@@ -203,7 +204,7 @@ int main() {
 
     bool jalan = true;
     bool pertama = true;
-
+mainkanMusik("music(1).wav");
     while (jalan) {
 
         initscr();
@@ -243,7 +244,7 @@ int main() {
         else if (levelDipilih == 2) jalankanGameHard();
         else jalan = false;
     }
-
+hentikanMusik();
     endwin();
     return 0;
 }
