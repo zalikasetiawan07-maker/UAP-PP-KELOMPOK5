@@ -1,6 +1,10 @@
 #ifndef OPENING_H
 #define OPENING_H
 
-void tampilOpening();
+#include <string>
+
+void tampilkanSambutan();
+void tampilkanDialog();
+std::string mintaNamaKarakter();
 
 #endif
