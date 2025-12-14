@@ -3,10 +3,7 @@
 
 #include <string>
 
-const std::string FILE_MUSIK = "music(1).wav";
-
-void mainkanMusik();
+void mainkanMusik(const std::string &fileMusik);
 void hentikanMusik();
 
 #endif
-
