@@ -1,19 +1,24 @@
+
 #include "highscore.h"
 #include <fstream>
+#include <iostream>
 
-int bacaHighScore(const std::string& namaFile) {
+bool bacaSkor(const std::string &namaFile, int &nilai) {
     std::ifstream file(namaFile);
-    int skor = 0;
-    if (file.is_open()) {
-        file >> skor;
+    if (!file.is_open()) {
+        nilai = 0;
+        return false;
     }
-    return skor;
+    file >> nilai;
+    file.close();
+    return true;
 }
 
-void simpanHighScore(const std::string& namaFile, int skorBaru) {
-    int skorLama = bacaHighScore(namaFile);
-    if (skorBaru > skorLama) {
-        std::ofstream file(namaFile, std::ios::trunc);
-        file << skorBaru;
-    }
+bool tulisSkor(const std::string &namaFile, int nilai) {
+    std::ofstream file(namaFile, std::ios::trunc);
+    if (!file.is_open()) return false;
+    file << nilai;
+    file.close();
+    return true;
 }
+
