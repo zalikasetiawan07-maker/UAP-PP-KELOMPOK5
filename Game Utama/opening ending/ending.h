@@ -1,6 +1,7 @@
 #ifndef ENDING_H
 #define ENDING_H
 
-void tampilEnding(int skor);
+void animasiMenang(int posY, int posX);
+void animasiKalah(int posY, int posX);
 
 #endif
